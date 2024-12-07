@@ -1,0 +1,26 @@
+{
+  "name": "realworld_sequelize",
+  "version": "1.0.0",
+  "description": "A real world nodejs project",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adison01/realWorldSequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adison01/realWorldSequelize/issues"
+  },
+  "homepage": "https://github.com/Adison01/realWorldSequelize#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5"
+  }
+}
